@@ -1,7 +1,7 @@
 package rezero4j.common;
 
 import net.goui.util.MTRandom;
-import rezero4j.rl.RLAgent;
+import rezero4j.rlearning.RLAgent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

@@ -1,4 +1,4 @@
-package rezero4j.rl;
+package rezero4j.rlearning;
 
 import numsim4j.NsModel;
 

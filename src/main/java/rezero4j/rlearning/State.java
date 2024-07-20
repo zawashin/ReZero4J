@@ -1,4 +1,4 @@
-package rezero4j.rl;
+package rezero4j.rlearning;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

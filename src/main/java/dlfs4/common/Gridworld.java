@@ -1,7 +1,8 @@
-package rezeo4j.common;
+package dlfs4.common;
 
-import rezeo4j.rlearning.Environment;
-import rezeo4j.rlearning.Agent;
+import rezeo4j.common.Agent;
+import rezeo4j.rlearning.RLEnvironment;
+import rezeo4j.rlearning.RLAgent;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -9,7 +10,7 @@ import java.util.Random;
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public class Grid extends Environment {
+public class Gridworld extends RLEnvironment {
 
     int numDim = 2;
     int[] actions;
@@ -19,7 +20,7 @@ public class Grid extends Environment {
     int[] stateGoal = {0, 3};
     int[] stateWall = {1, 1};
     int[][][] stateMap;
-    GridAgent agent;
+    Agent agent;
     boolean done = false;
     public double[][] rewardArray = {
             {0, 0, 0, 1.0},
@@ -31,12 +32,12 @@ public class Grid extends Environment {
     int height;
     private final int[] shape = new int[2];
 
-    public Grid(GridAgent agent) {
+    public Gridworld(Agent agent) {
         super(agent);
         this.agent = agent;
         actions = agent.actions;
 
-        this.agent.environment = this;
+        this.agent.env = this;
         width = rewardArray[0].length;
         height = rewardArray.length;
         numStates = width*height;
@@ -52,8 +53,8 @@ public class Grid extends Environment {
     }
 
     public static void main(String[] args) {
-        Agent agent = new GridAgent();
-        Grid env = new Grid((GridAgent) agent);
+        RLAgent agent = new Agent();
+        Gridworld env = new Gridworld((Agent) agent);
         Random random = new Random(System.currentTimeMillis());
 
         int tMax = 1000;
@@ -148,7 +149,7 @@ public class Grid extends Environment {
         this.done = done;
     }
 
-    public GridAgent getAgent() {
+    public Agent getAgent() {
         return agent;
     }
 

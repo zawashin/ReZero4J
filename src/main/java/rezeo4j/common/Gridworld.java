@@ -1,7 +1,7 @@
 package rezeo4j.common;
 
-import rl.RLEnvironment;
-import rl.RLAgent;
+import rezeo4j.rl.RLEnvironment;
+import rezeo4j.rl.RLAgent;
 
 import java.util.Arrays;
 import java.util.Random;

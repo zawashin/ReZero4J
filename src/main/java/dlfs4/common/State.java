@@ -1,7 +1,7 @@
-package rl;
+package dlfs4.common;
 
 /**
- * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
+ * @author Shin-Ichiro Serizawa <zawashin@icloud.com>
  */
 public class State {
 

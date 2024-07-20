@@ -1,12 +1,13 @@
-package rl;
+package dlfs4.rlearning;
 
-import zawashin.numsim4j.NsModel;
+import numsim4j.NsModel;
+import rezeo4j.rlearning.RLAgent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
 public abstract class RLEnvironment extends NsModel {
-    protected RLAgent agent;
+    protected rezeo4j.rlearning.RLAgent agent;
     protected int numStates;
 
     public RLEnvironment(RLAgent agent) {

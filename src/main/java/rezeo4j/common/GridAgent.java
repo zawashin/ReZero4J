@@ -1,7 +1,7 @@
 package rezeo4j.common;
 
 import net.goui.util.MTRandom;
-import rlearning.Agent;
+import rezeo4j.rlearning.Agent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

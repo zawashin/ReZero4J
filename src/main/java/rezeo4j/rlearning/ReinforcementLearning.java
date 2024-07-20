@@ -1,4 +1,4 @@
-package rlearning;
+package rezeo4j.rlearning;
 
 import zawashin.numsim4j.NsSolver;
 

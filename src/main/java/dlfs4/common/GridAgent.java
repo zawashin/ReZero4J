@@ -1,19 +1,20 @@
-package rezeo4j.common;
+package dlfs4.common;
 
 import net.goui.util.MTRandom;
-import rezeo4j.rl.RLAgent;
+import rezeo4j.common.Grid;
+import rezeo4j.rlearning.Agent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public class Agent extends RLAgent {
+public class GridAgent extends Agent {
 
     protected final int up = 0;
     protected final int down = 1;
     protected final int left = 2;
     protected final int right = 3;
 
-    public Agent() {
+    public GridAgent() {
         super();
         numDim = 2;
         random = new MTRandom(System.currentTimeMillis());
@@ -28,21 +29,12 @@ public class Agent extends RLAgent {
     }
 
     @Override
-    public void reset() {
-
-    }
-
-    @Override
     public void nextState(int action) {
-        ((Gridworld)env).nextState(action);
+        ((Grid) environment).nextState(action);
     }
 
     @Override
-    public void getReward() {
-
-    }
-
     public void reward() {
-        reward = ((Gridworld)env).getReward();
+        reward = ((Grid) environment).getReward();
     }
 }

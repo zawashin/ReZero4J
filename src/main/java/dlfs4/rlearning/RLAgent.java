@@ -1,6 +1,6 @@
-package rl;
+package dlfs4.rlearning;
 
-import zawashin.numsim4j.NsModel;
+import numsim4j.NsModel;
 
 import java.util.Random;
 

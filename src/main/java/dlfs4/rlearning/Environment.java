@@ -1,6 +1,7 @@
-package rlearning;
+package dlfs4.rlearning;
 
-import zawashin.numsim4j.NsModel;
+import numsim4j.NsModel;
+import rezeo4j.rlearning.Agent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

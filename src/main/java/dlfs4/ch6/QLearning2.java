@@ -1,9 +1,10 @@
-package rezeo4j.ch6;
+package dlfs4.ch6;
 
+import rezeo4j.ch6.QAgent;
 import rezeo4j.rlearning.Environment;
 import rezeo4j.common.Grid;
 import rezeo4j.common.GridworldPainter;
-import zawashin.numsim4j.NsFrame;
+import numsim4j.NsFrame;
 import rezeo4j.rlearning.ReinforcementLearning;
 
 /**

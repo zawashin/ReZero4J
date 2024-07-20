@@ -1,7 +1,8 @@
-package rezeo4j.common;
+package dlfs4.common;
 
 import net.goui.util.MTRandom;
-import rezeo4j.rl.RLAgent;
+import rezeo4j.common.Gridworld;
+import rezeo4j.rlearning.RLAgent;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

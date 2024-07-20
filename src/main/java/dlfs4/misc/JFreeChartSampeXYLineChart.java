@@ -1,4 +1,4 @@
-package rezeo4j.misc;
+package dlfs4.misc;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

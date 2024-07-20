@@ -1,5 +1,6 @@
-package rezeo4j.common;
+package dlfs4.common;
 
+import rezeo4j.common.GridAgent;
 import rezeo4j.rlearning.Environment;
 import rezeo4j.rlearning.Agent;
 

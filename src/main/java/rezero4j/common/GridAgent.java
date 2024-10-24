@@ -1,7 +1,8 @@
 package rezero4j.common;
 
-import net.goui.util.MTRandom;
 import rezero4j.rlearning.Agent;
+
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -16,7 +17,7 @@ public class GridAgent extends Agent {
     public GridAgent() {
         super();
         numDim = 2;
-        random = new MTRandom(System.currentTimeMillis());
+        random = new Random(System.currentTimeMillis());
         actions = new int[]{up, down, left, right};
         numActions = actions.length;
         actionLabels = new String[]{"^", "v", "<", ">"};

@@ -1,7 +1,8 @@
 package rezero4j.ch1;
 
 import rezero4j.common.ArrayUtils;
-import net.goui.util.MTRandom;
+
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -11,7 +12,7 @@ public class Agent {
     double epsilon;
     double[] expectedValues;
     int[] numPlayed;
-    MTRandom random;
+    Random random;
 
     public Agent(int numArms, double epsilon) {
         this.numArms = numArms;
@@ -22,7 +23,7 @@ public class Agent {
             expectedValues[i] = 0.0;
             numPlayed[i] = 0;
         }
-        random = new MTRandom(System.currentTimeMillis());
+        random = new Random(System.currentTimeMillis());
     }
 
     public void update(int action, double reward) {

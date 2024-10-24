@@ -1,10 +1,10 @@
 package rezero4j.common;
 
-import net.goui.util.MTRandom;
 
 import java.nio.IntBuffer;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -29,7 +29,7 @@ public class QValue implements Cloneable {
         int width = 4;
         int height = 3;
         int numActions = 4;
-        MTRandom rand = new MTRandom();
+        Random rand = new Random();
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 int[] state = new int[]{i, j};

@@ -1,17 +1,18 @@
 package rezero4j.ch5;
 
-import net.goui.util.MTRandom;
+
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
 public class Dice {
     int dices;
-    MTRandom random;
+    Random random;
 
     public Dice(int dices) {
         this.dices = dices;
-        random = new MTRandom(System.currentTimeMillis());
+        random = new Random(System.currentTimeMillis());
     }
    // def sample(dices=2):
     public double sample() {

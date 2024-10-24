@@ -1,6 +1,5 @@
 package rezero4j.common;
 
-import net.goui.util.MTRandom;
 
 import java.nio.*;
 import java.util.*;
@@ -29,7 +28,7 @@ public class Dict<K, V> implements Cloneable {
         int width = 4;
         int height = 3;
         int numActions = 4;
-        MTRandom rand = new MTRandom(System.currentTimeMillis());
+        Random rand = new Random(System.currentTimeMillis());
         double[] values = new double[numActions];
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {

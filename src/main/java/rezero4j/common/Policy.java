@@ -1,10 +1,10 @@
 package rezero4j.common;
 
-import net.goui.util.MTRandom;
 
 import java.nio.IntBuffer;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -33,7 +33,7 @@ public class Policy implements Cloneable {
         int height = 3;
         int numActions = 4;
         Policy policy = new Policy(numActions);
-        MTRandom rand = new MTRandom(System.currentTimeMillis());
+        Random rand = new Random(System.currentTimeMillis());
         double[] values = new double[numActions];
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {

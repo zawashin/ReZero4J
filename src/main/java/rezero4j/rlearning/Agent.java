@@ -1,7 +1,8 @@
 package rezero4j.rlearning;
 
-import net.goui.util.MTRandom;
 import numsim4j.NsModel;
+
+import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -17,7 +18,7 @@ public abstract class Agent extends NsModel {
     public String[] actionLabels;
     public int[][] actionArray;
     protected double reward;
-    protected MTRandom random;
+    protected Random random;
 
     public int[] getState() {
         return state;

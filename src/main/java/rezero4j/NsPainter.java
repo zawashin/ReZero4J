@@ -4,9 +4,6 @@ package rezero4j;
  * and open the template in the editor.
  */
 
-import numsim4j.image.ColorPalette;
-import numsim4j.image.ColorPalette8bit;
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

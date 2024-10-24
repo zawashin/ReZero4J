@@ -1,4 +1,4 @@
-package numsim4j.image;
+package rezero4j;
 
 import java.awt.*;
 

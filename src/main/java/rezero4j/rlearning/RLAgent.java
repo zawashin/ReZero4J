@@ -1,6 +1,6 @@
 package rezero4j.rlearning;
 
-import numsim4j.NsModel;
+import rezero4j.NsModel;
 
 import java.util.Random;
 

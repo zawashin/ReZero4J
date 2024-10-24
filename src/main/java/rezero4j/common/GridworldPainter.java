@@ -1,8 +1,8 @@
 package rezero4j.common;
 
-import numsim4j.NsFrame;
-import numsim4j.NsModel;
-import numsim4j.NsPainter;
+import rezero4j.NsFrame;
+import rezero4j.NsModel;
+import rezero4j.NsPainter;
 import java.awt.*;
 import java.util.Arrays;
 import java.util.Random;

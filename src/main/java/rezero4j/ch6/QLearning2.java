@@ -2,7 +2,7 @@ package rezero4j.ch6;
 
 import rezero4j.common.Grid;
 import rezero4j.common.GridworldPainter;
-import numsim4j.NsFrame;
+import rezero4j.NsFrame;
 import rezero4j.rlearning.Environment;
 import rezero4j.rlearning.ReinforcementLearning;
 

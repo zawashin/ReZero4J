@@ -2,7 +2,7 @@ package rezero4j.ch6;
 
 import rezero4j.ch5.EpsGreedy;
 import rezero4j.common.*;
-import numsim4j.NsFrame;
+import rezero4j.NsFrame;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

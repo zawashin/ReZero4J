@@ -3,7 +3,7 @@ package rezero4j.ch4;
 import rezero4j.common.GridAgent;
 import rezero4j.common.GridworldPainter;
 import rezero4j.common.Grid;
-import numsim4j.NsFrame;
+import rezero4j.NsFrame;
 
 import java.util.Random;
 

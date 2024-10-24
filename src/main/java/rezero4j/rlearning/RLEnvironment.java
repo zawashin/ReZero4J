@@ -1,6 +1,6 @@
 package rezero4j.rlearning;
 
-import numsim4j.NsModel;
+import rezero4j.NsModel;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

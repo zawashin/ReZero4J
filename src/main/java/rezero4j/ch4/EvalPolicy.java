@@ -4,7 +4,7 @@ import rezero4j.common.GridAgent;
 import rezero4j.common.Policy;
 import rezero4j.common.Grid;
 import rezero4j.common.GridworldPainter;
-import numsim4j.NsFrame;
+import rezero4j.NsFrame;
 
 import java.util.Arrays;
 

@@ -1,0 +1,4 @@
+/src/main/java/rezero4j/misc/
+
+# プロジェクトの除外パス
+/target/

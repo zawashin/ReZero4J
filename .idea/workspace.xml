@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e7dcf2a-b35a-4b06-9ab9-364ac921ff0f" name="変更" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="7e7dcf2a-b35a-4b06-9ab9-364ac921ff0f" name="変更" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/zawashin/Tensor4J.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/zawashin/ReZero4J.git&quot;,
     &quot;accountId&quot;: &quot;af4afb44-91e1-41d2-963b-9631429a70df&quot;
   }
 }</component>
@@ -50,7 +54,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/shin/Documents/IdeaProjects/ReZero4J/src/main/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -219,6 +223,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="モジュール名の変更" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />

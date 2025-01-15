@@ -1,6 +1,6 @@
 package rezero4jv1.ch6;
 
-import rezero4j.common.GridAgent;
+import rezero4jv1.common.GridAgent;
 
 import java.nio.IntBuffer;
 import java.util.HashMap;

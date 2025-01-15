@@ -1,16 +1,14 @@
 package rezero4jv1.ch4.old;
 
-import rezero4j.ch4.old.EvalPolicy0;
-import rezero4j.common.Grid;
-import rezero4j.common.GridAgent;
-import rezero4j.common.GridworldPainter;
-import rezero4j.NsFrame;
+import rezero4jv1.common.Grid;
+import rezero4jv1.common.GridAgent;
+import rezero4jv1.common.GridworldPainter;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@icloud.com>
  */
 public class IterPolicy0 {
-    rezero4j.ch4.old.EvalPolicy0 evaluater;
+    EvalPolicy0 evaluater;
     Grid env;
     GridAgent agent;
 
@@ -29,7 +27,7 @@ public class IterPolicy0 {
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setV(iterPolicy.getvalueArray(),  pi);
         painter.setV(iterPolicy.getvalueArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Policy Iteration");
         frame.setVisible(true);
     }

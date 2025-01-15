@@ -3,7 +3,7 @@
 // 2マスのグリッドワールド
 package rezero4jv1.ch3;
 
-import rezero4j.common.ArrayUtils;
+import rezero4jv1.common.ArrayUtils;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;

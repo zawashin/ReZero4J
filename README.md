@@ -6,7 +6,7 @@
 ## 現状
 - 6章までなんとか実装
 - 深層強化学習までは実装したい
-  - [深層学習のフレームワーク](https://github.com/oreilly-japan/deep-learning-from-scratch-3)をJavaに[移植中](httpes://github.com/zawashin/Dezero4J)
+  - [深層学習のフレームワーク](https://github.com/oreilly-japan/deep-learning-from-scratch-3)をJavaに[移植](httpes://github.com/zawashin/Dezero4J)
 - 仕切り直し予定
 
 ## 参考資料

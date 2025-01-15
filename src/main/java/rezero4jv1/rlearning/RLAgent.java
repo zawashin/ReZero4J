@@ -1,15 +1,11 @@
 package rezero4jv1.rlearning;
 
-import rezero4j.NsModel;
-import rezero4j.rlearning.RLEnvironment;
-
 import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@icloud.com>
  */
-public abstract class RLAgent extends NsModel {
-    public RLEnvironment env;
+public abstract class RLAgent {
     public int numDim;
     public int numActions;
     public int[] actions;

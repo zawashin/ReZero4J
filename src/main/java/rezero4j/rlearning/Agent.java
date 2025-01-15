@@ -1,13 +1,11 @@
 package rezero4j.rlearning;
 
-import rezero4j.NsModel;
-
 import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public abstract class Agent extends NsModel {
+public abstract class Agent {
     public Environment environment;
     public int numDim;
     public int numActions;

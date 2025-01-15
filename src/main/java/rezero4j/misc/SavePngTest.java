@@ -1,4 +1,4 @@
-package rezero4jv1.misc;
+package rezero4j.misc;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;

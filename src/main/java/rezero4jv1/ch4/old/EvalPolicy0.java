@@ -1,9 +1,8 @@
 package rezero4jv1.ch4.old;
 
-import rezero4j.common.Grid;
-import rezero4j.common.GridAgent;
-import rezero4j.common.GridworldPainter;
-import rezero4j.NsFrame;
+import rezero4jv1.common.Grid;
+import rezero4jv1.common.GridAgent;
+import rezero4jv1.common.GridworldPainter;
 
 import java.util.Arrays;
 
@@ -14,7 +13,7 @@ public class EvalPolicy0 {
 
     Grid env;
     GridAgent agent;
-    double[][] valueArray;
+    public double[][] valueArray;
     int width;
     int height;
 
@@ -46,7 +45,7 @@ public class EvalPolicy0 {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setV(eval.valueArray, pi);
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Value Function");
         frame.setVisible(true);
     }

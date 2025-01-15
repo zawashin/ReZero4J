@@ -1,12 +1,12 @@
-package rezero4jv1.misc;
+package rezero4j.misc;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.jfree.graphics2d.svg.SVGUtils;
 import org.jfree.graphics2d.svg.SVGGraphics2D;
+import org.jfree.graphics2d.svg.SVGUtils;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;

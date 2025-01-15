@@ -1,7 +1,6 @@
 package rezero4jv1.common;
 
-import rezero4j.common.Grid;
-import rezero4j.rlearning.Agent;
+import rezero4jv1.rlearning.Agent;
 
 import java.util.Random;
 
@@ -31,7 +30,7 @@ public class GridAgent extends Agent {
 
     @Override
     public void nextState(int action) {
-        ((rezero4j.common.Grid) environment).nextState(action);
+        ((Grid) environment).nextState(action);
     }
 
     @Override

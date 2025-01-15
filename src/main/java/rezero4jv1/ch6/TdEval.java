@@ -1,9 +1,7 @@
 package rezero4jv1.ch6;
 
-import rezero4j.ch6.TDAgent;
-import rezero4j.common.GridworldPainter;
-import rezero4j.common.Grid;
-import rezero4j.NsFrame;
+import rezero4jv1.common.GridworldPainter;
+import rezero4jv1.common.Grid;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -35,7 +33,7 @@ public class TdEval {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setV(agent.vArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Value Function by TD");
         frame.setVisible(true);
     }

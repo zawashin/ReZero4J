@@ -1,4 +1,4 @@
-package rezero4jv1.misc;
+package rezero4j.misc;
 
 import java.util.ArrayDeque;
 

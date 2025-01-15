@@ -1,27 +1,25 @@
 package rezero4jv1.ch6;
 
-import rezero4j.ch6.QAgent;
-import rezero4j.common.Grid;
-import rezero4j.common.GridworldPainter;
-import rezero4j.NsFrame;
-import rezero4j.rlearning.Environment;
-import rezero4j.rlearning.ReinforcementLearning;
+import rezero4jv1.common.Grid;
+import rezero4jv1.common.GridworldPainter;
+import rezero4jv1.rlearning.Environment;
+import rezero4jv1.rlearning.ReinforcementLearning;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
 public class QLearning2 extends ReinforcementLearning {
-    rezero4j.ch6.QAgent agent;
+    QAgent agent;
     Grid grid;
 
     public QLearning2(Environment grid) {
         super(grid);
         this.grid = (Grid) grid;
-        this.agent = (rezero4j.ch6.QAgent) grid.getAgent();
+        this.agent = (QAgent) grid.getAgent();
     }
 
     public static void main(String[] args) {
-        rezero4j.ch6.QAgent agent = new QAgent();
+        QAgent agent = new QAgent();
         Grid grid = new Grid(agent);
         agent.setEnvironment(grid);
         grid.setAgent(agent);
@@ -56,7 +54,7 @@ public class QLearning2 extends ReinforcementLearning {
         /*
         GridworldPainter painter = new GridworldPainter(720, 540, grid);
         painter.setQ(agent.getQArray(), agent.getPiArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Q Function and Pi by Q Learning");
         frame.setVisible(true);
 
@@ -93,7 +91,7 @@ public class QLearning2 extends ReinforcementLearning {
     public void test() {
         GridworldPainter painter = new GridworldPainter(720, 540, grid);
         painter.setQ(agent.getQArray(), agent.getPiArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Q Function and Pi by Q Learning");
         frame.setVisible(true);
     }

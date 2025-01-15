@@ -1,10 +1,9 @@
 package rezero4jv1.ch5;
 
-import rezero4j.ch5.EpsGreedy;
-import rezero4j.common.GridAgent;
-import rezero4j.common.Policy;
-import rezero4j.common.AgentSnapshot;
-import rezero4j.common.QKey;
+import rezero4jv1.common.GridAgent;
+import rezero4jv1.common.Policy;
+import rezero4jv1.common.AgentSnapshot;
+import rezero4jv1.common.QKey;
 
 import java.nio.IntBuffer;
 import java.util.ArrayList;
@@ -137,7 +136,7 @@ public class McOffPolicyAgent extends GridAgent {
                 //rho *= probDefault[action]/probDefault[action];
                 //rho *= 1.0;
             }
-            pi.put(state, rezero4j.ch5.EpsGreedy.prob(qMap, state, 0.0, numActions).clone());
+            pi.put(state, EpsGreedy.prob(qMap, state, 0.0, numActions).clone());
             b.put(state, EpsGreedy.prob(qMap, state, epsilon, numActions).clone());
         }
     }

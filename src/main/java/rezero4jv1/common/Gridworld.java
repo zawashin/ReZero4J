@@ -1,8 +1,7 @@
 package rezero4jv1.common;
 
-import rezero4j.common.Agent;
-import rezero4j.rlearning.RLAgent;
-import rezero4j.rlearning.RLEnvironment;
+import rezero4jv1.rlearning.RLAgent;
+import rezero4jv1.rlearning.RLEnvironment;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -20,7 +19,7 @@ public class Gridworld extends RLEnvironment {
     int[] stateGoal = {0, 3};
     int[] stateWall = {1, 1};
     int[][][] stateMap;
-    rezero4j.common.Agent agent;
+    Agent agent;
     boolean done = false;
     public double[][] rewardArray = {
             {0, 0, 0, 1.0},
@@ -32,7 +31,7 @@ public class Gridworld extends RLEnvironment {
     int height;
     private final int[] shape = new int[2];
 
-    public Gridworld(rezero4j.common.Agent agent) {
+    public Gridworld(Agent agent) {
         super(agent);
         this.agent = agent;
         actions = agent.actions;
@@ -53,8 +52,8 @@ public class Gridworld extends RLEnvironment {
     }
 
     public static void main(String[] args) {
-        RLAgent agent = new rezero4j.common.Agent();
-        Gridworld env = new Gridworld((rezero4j.common.Agent) agent);
+        RLAgent agent = new Agent();
+        Gridworld env = new Gridworld((Agent) agent);
         Random random = new Random(System.currentTimeMillis());
 
         int tMax = 1000;

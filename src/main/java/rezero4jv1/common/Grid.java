@@ -1,8 +1,7 @@
 package rezero4jv1.common;
 
-import rezero4j.common.GridAgent;
-import rezero4j.rlearning.Agent;
-import rezero4j.rlearning.Environment;
+import rezero4jv1.rlearning.Agent;
+import rezero4jv1.rlearning.Environment;
 
 import java.util.Arrays;
 import java.util.Random;

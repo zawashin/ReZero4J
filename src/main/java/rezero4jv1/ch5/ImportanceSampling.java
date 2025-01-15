@@ -1,6 +1,6 @@
 package rezero4jv1.ch5;
 
-import rezero4j.common.ArrayUtils;
+import rezero4jv1.common.ArrayUtils;
 
 import java.util.Random;
 

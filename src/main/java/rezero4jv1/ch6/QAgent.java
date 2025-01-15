@@ -1,8 +1,8 @@
 package rezero4jv1.ch6;
 
-import rezero4j.ch5.EpsGreedy;
-import rezero4j.common.*;
-import rezero4j.NsFrame;
+import numviz.NvFrame;
+import rezero4jv1.ch5.EpsGreedy;
+import rezero4jv1.common.*;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
@@ -136,7 +136,7 @@ public class QAgent extends GridAgent {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setQ(agent.getQArray(), agent.getPiArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Q Function and Pi by Q Learning");
         frame.setVisible(true);
     }

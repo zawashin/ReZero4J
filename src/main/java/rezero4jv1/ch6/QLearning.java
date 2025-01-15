@@ -1,19 +1,18 @@
 package rezero4jv1.ch6;
 
-import rezero4j.ch6.QAgent;
-import rezero4j.common.GridworldPainter;
-import rezero4j.common.Grid;
-import rezero4j.NsFrame;
+import numviz.NvFrame;
+import rezero4jv1.common.GridworldPainter;
+import rezero4jv1.common.Grid;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
 public class QLearning {
-    rezero4j.ch6.QAgent agent;
+    QAgent agent;
     Grid env;
 
     public static void main(String[] args) {
-        rezero4j.ch6.QAgent agent = new QAgent();
+        QAgent agent = new QAgent();
         Grid env = new Grid(agent);
         int episodes = 10000;
 
@@ -38,7 +37,7 @@ public class QLearning {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setQ(agent.getQArray(), agent.getPiArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Q Function and Pi by Q Learning");
         frame.setVisible(true);
     }

@@ -1,9 +1,7 @@
 package rezero4jv1.ch5;
 
-import rezero4j.ch5.RandomAgent;
-import rezero4j.common.Grid;
-import rezero4j.common.GridworldPainter;
-import rezero4j.NsFrame;
+import rezero4jv1.common.Grid;
+import rezero4jv1.common.GridworldPainter;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@icloud.com>
@@ -36,7 +34,7 @@ public class EvalMC {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setV(agent.valueArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Value Function by MC");
         frame.setVisible(true);
     }

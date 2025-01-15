@@ -1,9 +1,7 @@
 package rezero4jv1.ch6;
 
-import rezero4j.ch5.EpsGreedy;
-import rezero4j.common.*;
-import rezero4j.common.*;
-import rezero4j.NsFrame;
+import rezero4jv1.ch5.EpsGreedy;
+import rezero4jv1.common.*;
 
 import java.nio.IntBuffer;
 import java.util.ArrayDeque;
@@ -156,7 +154,7 @@ public class SarsaAgent extends GridAgent {
 
         GridworldPainter painter = new GridworldPainter(720, 540, env);
         painter.setQ(agent.qArray(), agent.piArray());
-        NsFrame frame = new NsFrame(painter);
+        NvFrame frame = new NvFrame(painter);
         frame.setTitle("Q Function and Pi by Sarsa");
         frame.setVisible(true);
     }

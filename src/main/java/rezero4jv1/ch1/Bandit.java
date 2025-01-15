@@ -1,8 +1,6 @@
 package rezero4jv1.ch1;
 
 
-import rezero4j.ch1.Agent;
-
 import java.util.Random;
 
 /**
@@ -39,7 +37,7 @@ public class Bandit {
         int numArms = 10;
 
         Bandit environment = new Bandit(numArms);
-        rezero4j.ch1.Agent agent = new Agent(numArms, epsilon);
+        Agent agent = new Agent(numArms, epsilon);
         int totalReward = 0;
         //int[] totalRewards = new int[maxSteps];
         double[] rates = new double[maxSteps];

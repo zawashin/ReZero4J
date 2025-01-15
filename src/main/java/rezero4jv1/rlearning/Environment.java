@@ -1,23 +1,20 @@
 package rezero4jv1.rlearning;
 
-import rezero4j.NsModel;
-import rezero4j.rlearning.Agent;
-
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public abstract class Environment extends NsModel {
-    protected rezero4j.rlearning.Agent agent;
+public abstract class Environment {
+    protected Agent agent;
     protected int numStates;
     protected int[] shape;
 
-    public Environment(rezero4j.rlearning.Agent agent) {
+    public Environment(Agent agent) {
         this.agent = agent;
     }
 
     public abstract void reset();
 
-    public void setAgent(rezero4j.rlearning.Agent agent) {
+    public void setAgent(Agent agent) {
         this.agent = agent;
     }
 

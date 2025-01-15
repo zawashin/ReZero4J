@@ -1,9 +1,8 @@
 package rezero4jv1.ch4;
 
-import rezero4j.common.GridAgent;
-import rezero4j.common.GridworldPainter;
-import rezero4j.common.Grid;
-import rezero4j.NsFrame;
+import rezero4jv1.common.GridAgent;
+import rezero4jv1.common.GridworldPainter;
+import rezero4jv1.common.Grid;
 
 import java.util.Random;
 
@@ -41,7 +40,7 @@ public class StateAndPolicy {
             }
         }
         painter.setV(valueArray, pi);
-        final NsFrame frame = new NsFrame(painter);
+        final NvFrame frame = new NvFrame(painter);
         frame.setVisible(true);
         frame.setTitle("Grid World State");
     }

@@ -1,10 +1,9 @@
 package rezero4jv1.ch5;
 
-import rezero4j.ch5.EpsGreedy;
-import rezero4j.common.GridAgent;
-import rezero4j.common.AgentSnapshot;
-import rezero4j.common.Policy;
-import rezero4j.common.QKey;
+import rezero4jv1.common.GridAgent;
+import rezero4jv1.common.AgentSnapshot;
+import rezero4jv1.common.Policy;
+import rezero4jv1.common.QKey;
 
 import java.nio.IntBuffer;
 import java.util.ArrayList;

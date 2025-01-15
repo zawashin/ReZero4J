@@ -1,11 +1,7 @@
 package rezero4jv1.common;
 
-import rezero4j.NsFrame;
-import rezero4j.NsModel;
-import rezero4j.NsPainter;
-import rezero4j.common.ArrayUtils;
-import rezero4j.common.Grid;
-import rezero4j.common.GridAgent;
+import numviz.NvFrame;
+import numviz.NvPainter;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -14,10 +10,10 @@ import java.util.Random;
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public class GridworldPainter extends NsPainter {
+public class GridworldPainter extends NvPainter {
 
-    rezero4j.common.Grid grid;
-    rezero4j.common.GridAgent agent;
+    Grid grid;
+    GridAgent agent;
     double[][] valueArray = null;
     double[][][] qArray = null;
     double[][][] pi = null;
@@ -28,9 +24,9 @@ public class GridworldPainter extends NsPainter {
 
     int n, m;
 
-    public GridworldPainter(int width, int height, NsModel model) {
+    public GridworldPainter(int width, int height, Object model) {
         super(width, height, model);
-        grid = (rezero4j.common.Grid) model;
+        grid = (Grid) model;
         agent = grid.getAgent();
         m = grid.stateMap.length;
         n = grid.stateMap[0].length;
@@ -40,8 +36,8 @@ public class GridworldPainter extends NsPainter {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        rezero4j.common.GridAgent agent = new GridAgent();
-        rezero4j.common.Grid grid = new Grid(agent);
+        GridAgent agent = new GridAgent();
+        Grid grid = new Grid(agent);
         int width = grid.getWidth();
         int height = grid.getHeight();
         double[][] valueArray = new double[grid.getHeight()][grid.getWidth()];
@@ -70,7 +66,7 @@ public class GridworldPainter extends NsPainter {
         //painter.setV(valueArray);
         painter.setQ(q);
         painter.setPi(pi);
-        final NsFrame frame = new NsFrame(painter);
+        final NvFrame frame = new NvFrame(painter);
         frame.setVisible(true);
         frame.setTitle("Grid World State");
     }
@@ -101,7 +97,7 @@ public class GridworldPainter extends NsPainter {
         int gridWidth = this.width * 4 / 5;
         int gridHeight = this.height * 4 / 5;
         int x1, y1, x2, y2;
-        g.setColor(palette.getBlack());
+        g.setColor(colorMap.getBlack());
         int xs = xOffset - gridWidth / 2;
         int ys = yOffset + gridHeight / 2;
         int xe = xOffset + gridWidth / 2;
@@ -117,8 +113,8 @@ public class GridworldPainter extends NsPainter {
             qmax = 0.0;
             for (int i = 0; i < m; i++) {
                 for (int j = 0; j < n; j++) {
-                    double amax = Math.abs(rezero4j.common.ArrayUtils.max(qArray[i][j]));
-                    double amin = Math.abs(rezero4j.common.ArrayUtils.min(qArray[i][j]));
+                    double amax = Math.abs(ArrayUtils.max(qArray[i][j]));
+                    double amin = Math.abs(ArrayUtils.min(qArray[i][j]));
                     // バグっぽい
                     if (amax > amin) {
                         if(amax > qmax) {
@@ -232,8 +228,8 @@ public class GridworldPainter extends NsPainter {
         }
 
         if (drawValue) {
-            double amax = Math.abs(rezero4j.common.ArrayUtils.max(valueArray));
-            double amin = Math.abs(rezero4j.common.ArrayUtils.min(valueArray));
+            double amax = Math.abs(ArrayUtils.max(valueArray));
+            double amin = Math.abs(ArrayUtils.min(valueArray));
             double vmax, vmin;
             if (amax > amin) {
                 vmax = amax;
@@ -358,7 +354,7 @@ public class GridworldPainter extends NsPainter {
         // 文字
         if (drawValue) {
             g.setFont(new Font("Serif", Font.PLAIN, 18));
-            g.setColor(palette.getBlack());
+            g.setColor(colorMap.getBlack());
             for (int i = 0; i < m; i++) {
                 y1 = ys - dy * i;
                 for (int j = 0; j < n; j++) {
@@ -376,7 +372,7 @@ public class GridworldPainter extends NsPainter {
         }
         if (drawValue || drawQ || drawPi) {
             g.setFont(new Font("Serif", Font.PLAIN, 16));
-            g.setColor(palette.getBlack());
+            g.setColor(colorMap.getBlack());
             for (int i = 0; i < m; i++) {
                 y1 = ys - dy * i;
                 for (int j = 0; j < n; j++) {

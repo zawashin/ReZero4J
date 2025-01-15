@@ -1,8 +1,6 @@
 package rezero4jv1.common;
 
 
-import rezero4j.common.QKey;
-
 import java.nio.IntBuffer;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -76,25 +74,25 @@ public class QValue implements Cloneable {
     }
 
     public void put(int[] state, int action, double q) {
-        IntBuffer key = new rezero4j.common.QKey(state, action).getKey();
+        IntBuffer key = new QKey(state, action).getKey();
         this.q.put(key, q);
     }
 
-    public void put(rezero4j.common.QKey qKey, double q) {
+    public void put(QKey qKey, double q) {
         put(qKey.getState(), qKey.getAction(), q);
     }
 
     public double get(int[] state, int action) {
-        IntBuffer key = new rezero4j.common.QKey(state, action).getKey();
+        IntBuffer key = new QKey(state, action).getKey();
         return q.getOrDefault(key, qDefault);
     }
 
-    public double get(rezero4j.common.QKey qKey) {
+    public double get(QKey qKey) {
         IntBuffer key = qKey.getKey();
         return q.getOrDefault(key, qDefault);
     }
 
-    public boolean containsKey(rezero4j.common.QKey qKey) {
+    public boolean containsKey(QKey qKey) {
         return q.containsKey(qKey.getKey()) ;
     }
 

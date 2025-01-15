@@ -1,8 +1,8 @@
 package rezero4jv1.ch5;
 
-import rezero4j.common.ArrayUtils;
-import rezero4j.common.QKey;
-import rezero4j.common.QValue;
+import rezero4jv1.common.ArrayUtils;
+import rezero4jv1.common.QKey;
+import rezero4jv1.common.QValue;
 
 import java.nio.IntBuffer;
 import java.util.Arrays;

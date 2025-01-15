@@ -1,4 +1,4 @@
-package rezero4jv1.misc;
+package rezero4j.misc;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>

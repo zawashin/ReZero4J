@@ -5,134 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e7dcf2a-b35a-4b06-9ab9-364ac921ff0f" name="変更" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/Algprithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Bandit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/BanditAve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/BellmanOptimalityEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/BellmanStateEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/CoinAndDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ColorPalette.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ColorPalette8bit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsEnvironment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsExtensions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsPrintWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsSolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/NsSuffixes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Agent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Average.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/Bandit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch1/BanditAve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/BellmanOptimalityEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/BellmanStateEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/CoinAndDice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch3/Dice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/DynamicProgramming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/DynamicProgramming2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/EvalPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/IterPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/StateAndPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/StateValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/old/EvalPolicy0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch4/old/IterPolicy0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/CtrlMC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/Dice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/EpsGreedy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/EvalMC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/ImportanceSampling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/MCAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/McCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/McCtrlOffPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/McEval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/McOffPolicyAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch5/RandomAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/QAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/QLearning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/QLearning2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/Sarsa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/SarsaAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/TDAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/ch6/TdEval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/AgentSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/AgentSnapshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/Dict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/Dict.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/GridAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/GridAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/Gridworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/Gridworld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/GridworldPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/GridworldPainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/Policy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/Policy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/QKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/QKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/QValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/QValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/common/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/common/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/ReinforcementLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/ReinforcementLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ColorPalette.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ColorPalette8bit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsEnvironment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsExtensions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsPrintWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsSolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/NsSuffixes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/Bandit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/Bandit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/BanditAve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch1/BanditAve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch3/BellmanOptimalityEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch3/BellmanOptimalityEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/EvalPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/EvalPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/IterPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/IterPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/StateAndPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/StateAndPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/StateValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/StateValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/old/EvalPolicy0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/old/EvalPolicy0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/old/IterPolicy0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch4/old/IterPolicy0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/CtrlMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/CtrlMC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/EpsGreedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/EpsGreedy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/EvalMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/EvalMC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/ImportanceSampling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/ImportanceSampling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/MCAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/MCAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McCtrlOffPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McCtrlOffPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McEval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McOffPolicyAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/McOffPolicyAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/RandomAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch5/RandomAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QLearning2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/QLearning2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/Sarsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/Sarsa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/SarsaAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/SarsaAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/TDAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/TDAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/TdEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/ch6/TdEval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/GridAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/GridAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Gridworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/Gridworld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/GridworldPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/GridworldPainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/QValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/common/QValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/ArrayDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/ArrayDequeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/DictOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/DictOld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/ExtHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/ExtHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/JFreeChartSampeXYLineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/JFreeChartSampeXYLineChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/Key.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/PlotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/PlotUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/SavePngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/SavePngTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/misc/SaveSvgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/misc/SaveSvgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/RLAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/RLAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/RLEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/RLEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/ReinforcementLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4jv1/rlearning/ReinforcementLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/RLEnvironment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/ReinforcementLearning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rezero4j/rlearning/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rezero4j/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,24 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shin/Documents/IdeaProjects/ReZero4J/src/main/java/rezero4j",
-    "project.structure.last.edited": "モジュール",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "アプリケーション.JFreeChartSampeXYLineChart.executor": "Run",
-    "アプリケーション.PlotUtils.executor": "Run",
-    "アプリケーション.SavePngTest.executor": "Run",
-    "アプリケーション.rezero4j.misc.PlotUtils.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shin/Documents/IdeaProjects/ReZero4J/src/main/java/rezero4j&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;モジュール&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;アプリケーション.JFreeChartSampeXYLineChart.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PlotUtils.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.SavePngTest.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.rezero4j.misc.PlotUtils.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/rezero4j" />
@@ -201,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.rezero4j.misc.PlotUtils">
+  <component name="RunManager" selected="アプリケーション.JFreeChartSampeXYLineChart">
     <configuration name="JFreeChartSampeXYLineChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rezero4jv1.misc.JFreeChartSampeXYLineChart" />
       <module name="ReZero4J" />
@@ -256,7 +148,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="アプリケーション.rezero4j.misc.PlotUtils" />
         <item itemvalue="アプリケーション.SavePngTest" />
         <item itemvalue="アプリケーション.PlotUtils" />
         <item itemvalue="アプリケーション.JFreeChartSampeXYLineChart" />
@@ -416,7 +307,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730187954044</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1736940143993</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736940143993</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1736940375504</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736940375504</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

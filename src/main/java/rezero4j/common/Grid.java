@@ -1,7 +1,7 @@
 package rezero4j.common;
 
-import rezero4j.rlearning.Agent;
-import rezero4j.rlearning.Environment;
+import rezero4j.Agent;
+import rezero4j.Environment;
 
 import java.util.Arrays;
 import java.util.Random;

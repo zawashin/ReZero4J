@@ -1,15 +1,13 @@
 package rezero4j.common;
 
-import rezero4j.rlearning.RLAgent;
-import rezero4j.rlearning.RLEnvironment;
-
+import rezero4j.Environment;
 import java.util.Arrays;
 import java.util.Random;
 
 /**
  * @author Shin-Ichiro Serizawa <zawashin@outlook.com>
  */
-public class Gridworld extends RLEnvironment {
+public class Gridworld extends Environment {
 
     int numDim = 2;
     int[] actions;
